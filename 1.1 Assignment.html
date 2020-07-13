@@ -1,0 +1,28 @@
+<html>
+<head>
+    <h3>Assignment 1.1 </h3>
+    <script> 
+        var d = new Date();
+        var days = ["","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+     document.write("Today is: "+ days[d.getDay()]);
+    </script>
+    <br>
+    <script>
+        var x= d.getHours(); 
+        if(x<12)
+            {
+                document.write("Current Time is: "+ x%12 +"AM"+ ":"+ d.getMinutes() +":"+ d.getSeconds());
+            }
+        else if(x>12)
+            {
+                document.write("Current Time is: "+ x%12 +" PM"+ ":"+ d.getMinutes() +":"+ d.getSeconds());
+            }else{
+                document.write("Current Time is: "+"12"+ ":"+ d.getMinutes() +":"+ d.getSeconds());
+            }
+         
+    </script>
+    </head>
+    <body>
+    </body>
+
+</html>
