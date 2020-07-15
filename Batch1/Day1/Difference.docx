@@ -1,4 +1,4 @@
-The four major differences are :-
+The four major differences are between var,let and const are :-
 
 var declarations are globally scoped or function scoped while let and const are block scoped.
 
