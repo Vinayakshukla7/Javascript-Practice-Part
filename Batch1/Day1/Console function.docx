@@ -1,0 +1,45 @@
+Console. log() Function --
+The console. log() is a function in JavaScript which is used to print any kind of variables defined before in it or to just print any message
+that needs to be displayed to the user. It returns the value of the parameter given.
+Syntax: console.log();
+Parameter: It accepts a parameter which can be an array, an object or any message.
+Example Use : 
+<script> 
+var str = "Lets updrade"; 
+console.log(str); 
+</script> 
+
+
+
+Console.warn() Function
+The console.warn() function from console class of Node.js is used to display the warning messages on the console. It prints to stderr with newline.
+Note: This function is an alias of console.error() function.The function returns the warning message.
+Syntax: console.warn( [data][, ...args] )
+Parameter: This function can contains multiple parameters. The first parameter is used for the primary message and other parameters are used for substitution values.
+Example Use :
+function displayWarning(k) { 
+    console.warn(`Lets upgrade is a ${k} portal`); 
+} 
+const x = 'Efficient'; 
+ displayWarning(k); 
+ Output: Lets upgrade is a Efficient portal
+ 
+ 
+ 
+ Console.table() Function
+ The console.table() method writes a table in the console view.
+ Syntax: console.table(tabledata, tablecolumns)
+ Parameter : The first parameter is required, and must be either an object, or an array, containing data to fill the table.
+ Example Use :
+ console.table({ firstname : "John", lastname : "Doe" });
+ 
+ 
+ 
+Console.error() Function
+The console.error() method writes an error message to the console.
+Syntax:console.error()
+Parameter: String or Object	Required. The message or object to write as an error
+Example Use:
+var obj = { firstname : "lets", lastname : "upgrade" };
+console.error(myObj);
+
