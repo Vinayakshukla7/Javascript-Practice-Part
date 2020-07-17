@@ -1,0 +1,23 @@
+<html>
+<head>
+    <h3>Check console.</h3>
+    <script> 
+       let num = prompt("Enter Number");
+        function check(num)
+        {
+            if(num%2 ==0)
+           {
+               return Text="Even";
+           }
+           else{
+               return Text="Odd";
+           }         
+        }
+     
+       console.log("Number "+num+" is "+ check() );
+    </script>
+    </head>
+    <body>
+    </body>
+
+</html>
