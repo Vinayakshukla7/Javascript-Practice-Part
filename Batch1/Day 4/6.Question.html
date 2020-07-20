@@ -1,0 +1,27 @@
+<html>
+<head>
+    <h3>Question 3 </h3>
+     <script> 
+    let nume ;
+        
+       function check()
+      { 
+        let nume = prompt("Enter a number:")
+        return (nume >100 || nume == null) ? console.log("DOne") : check();
+         if(nume >100 || nume == null)
+         { 
+             console.log("DOne");
+         }else{
+             check();
+         }
+        } 
+    
+   
+         </script>
+    </head>
+    <body>
+    
+        <button type="button" onclick="check();">Click me</button>
+    </body>
+
+</html>
