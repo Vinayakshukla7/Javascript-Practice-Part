@@ -1,2 +1,2 @@
-# Let_upgrade_all_assignments
-Javascript Assignment from Lets upgrade course 
+#JavaScript 
+Implementation of Javascipt basic functionalities 
